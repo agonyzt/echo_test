@@ -10,4 +10,4 @@ platform:
 steps:
 - name: build solution
   commands:
-  - build.bat
+  - start build.bat
