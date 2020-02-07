@@ -11,7 +11,7 @@ steps:
 - name: build solution
   commands:
   - git clone git@github.com:Omnirobotic/Clients-Astronics.git
-  - vcs import < workspace.yml
+  - type workspace.yml | vcs import
   - C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\VsDevCmd.bat
   - cd Clients-Astronics
   - msbuild
